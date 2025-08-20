@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier. Do not edit manually.
+_commit: 44b74a5
+_src_path: gh:WoosterTech/simple-modern-uv
+package_author_email: karl@woostertech.com
+package_author_name: Karl Wooster
+package_description: Pydantic based ChartJS models for easy chart creation and customization.
+package_github_org: WoosterTech
+package_module: simple_chartjs
+package_name: simple-chartjs
