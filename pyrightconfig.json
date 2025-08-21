@@ -1,7 +1,12 @@
 {
-    "include": ["src", "tests", "devtools"],
+    "include": [
+        "src",
+        "tests",
+        "devtools"
+    ],
     "reportIgnoreCommentWithoutRule": false,
     "reportUnnecessaryTypeIgnoreComment": false,
     "reportMissingTypeStubs": false,
     "reportUnusedCallResult": false,
+    "stubPath": "./typings"
 }
