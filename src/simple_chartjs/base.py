@@ -139,6 +139,10 @@ class ObjectData(DatasetData[DataObject]):
     pass
 
 
+class GenericObjectData(DatasetData[dict[str, Any]]):  # pyright: ignore[reportExplicitAny]
+    pass
+
+
 class Dataset(General):
     label: str | None = None
     border_color: Color = Color((0, 0, 0, 0.1))
@@ -146,7 +150,7 @@ class Dataset(General):
     background_color: Color = Color((0, 0, 0, 0.1))
     border_dash: list[int] = []
     border_dash_offset: float = 0.0
-    data: PrimitiveData | ArrayData | ObjectData
+    data: PrimitiveData | ArrayData | ObjectData | GenericObjectData
     fill: bool | None = None
     tension: Decimal = Decimal("0")
 
