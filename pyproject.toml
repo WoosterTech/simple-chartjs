@@ -30,8 +30,8 @@ classifiers = [
 dependencies = [
     "attrmagic",
     "case-converter>=1.2.0",
-    "pydantic>=2.11.7",
-    "pydantic-extra-types>=2.10.5",
+    "pydantic>=2.7,<3",
+    "pydantic-extra-types>=2.10,<2.11",
 ]
 dynamic = ["version"]
 

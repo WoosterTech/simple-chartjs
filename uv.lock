@@ -373,8 +373,8 @@ dev = [
 requires-dist = [
     { name = "attrmagic", git = "https://github.com/WoosterTech/AttrMagic.git" },
     { name = "case-converter", specifier = ">=1.2.0" },
-    { name = "pydantic", specifier = ">=2.11.7" },
-    { name = "pydantic-extra-types", specifier = ">=2.10.5" },
+    { name = "pydantic", specifier = ">=2.7,<3" },
+    { name = "pydantic-extra-types", specifier = ">=2.10,<2.11" },
 ]
 
 [package.metadata.requires-dev]
